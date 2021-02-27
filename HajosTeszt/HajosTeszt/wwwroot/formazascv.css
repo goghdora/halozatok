@@ -1,0 +1,44 @@
+﻿body {
+    font-family: Calibri;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover.link {
+    color: orange;
+}
+
+a.horgony {
+    color: black;
+}
+
+h1, h2, h3, h4 {
+    color: orange;
+    font-variant: small-caps;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol.tanulmany, ul.adat {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+#sport {
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 150%;
+    color: orange;
+    font-weight: bold;
+}
+
+p {
+    text-shadow: 2px 2px 80px #CCCCCC;
+}
