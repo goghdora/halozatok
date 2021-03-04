@@ -42,3 +42,8 @@ span {
 p {
     text-shadow: 2px 2px 80px #CCCCCC;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,125 @@
+﻿body {
+    font-family: Calibri;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover.link {
+    color: white;
+}
+
+a.horgony {
+    color: black;
+}
+
+h1, h2, h3, h4 {
+    font-variant: small-caps;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol.tanulmany, ul.adat {
+    border-radius: 10px;
+}
+
+#sport {
+    border-radius: 10px;
+}
+
+span {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+p {
+    text-shadow: 2px 2px 80px #CCCCCC;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-weight: bold;
+    text-align: left;
+}
+
+#article,
+#aside,
+#footer,
+#header,
+#nav {
+    padding: 20px;
+}
+
+
+#header {
+    background-color: orange;
+    order: -1;
+    text-align:center;
+}
+
+#nav {
+    background-color: cornflowerblue;
+    order: -1;
+    display:flex;
+    justify-content: flex-start;
+}
+
+#article {
+    background-color: indianred;
+}
+
+#aside {
+    background-color: burlywood;
+}
+
+#footer {
+    background-color: mediumpurple;
+}
+
+#nav {
+    display: flex; /*flex konténerré vált 123...*/
+    justify-content:flex-start;
+}
+
+    #nav a {
+        text-decoration: none;
+        color: black;
+        flex: 1 1 auto;
+    }
+
+@media screen and (min-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    #main {
+        display: flex;
+    }
+
+    #nav, #header {
+        order: -1;
+    }
+
+    #article {
+        flex: 1 1 75%;
+    }
+
+    #aside {
+        flex: 1 1 25%;
+    }
+}
