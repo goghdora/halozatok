@@ -1,0 +1,70 @@
+﻿html, body {
+    height: 100%;
+}
+
+div {
+    margin: 10px;
+    border: 1px solid white;
+}
+
+#kulso {
+    height: 100%;
+    display: flex; /*flex elemként lehet csak formázni a flex-...-okkal*/
+    flex-direction: column;
+    background-color: gray;
+}
+
+#kerdes_szoveg {
+    display: flex;
+    background-color: white;
+    font-weight: bold;
+}
+
+#kozepso {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    border: none;
+}
+
+#valaszok {
+    flex-grow: 1; /*ha marad hely, mennyit kapjon abból*/
+    flex-shrink: 1; /*ha kevés a hely, a szükséges helyből mennyit adjon*/
+    background-color: white;
+}
+
+#vezerlo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    font-weight: bold;
+}
+
+#kep {
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: white;
+}
+
+.gomb {
+    padding: 20px;
+    width: 80px;
+}
+
+.kattinthato:hover {
+    background-color: gray;
+    color: white;
+}
+
+.kerdes {
+}
+
+.jo {
+    color: red;
+}
+
+.rossz {
+    color: green;
+}
