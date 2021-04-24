@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title></title>
     <link href="hajoformazas.css" rel="stylesheet">
-    <script src="/hetedik.js"></script>
+    <script src="hetedik.js"></script>
 </head>
 <body>
     <div id="kulso">
@@ -14,17 +14,17 @@
 
         <div id="kozepso">
             <div id="valaszok">
-                <div id="valasz1" class="kerdes kattinthato">Válasz 1</div>
-                <div id="valasz2" class="kerdes kattinthato jo">Válasz 2</div>
-                <div id="valasz3" class="kerdes kattinthato rossz">Válasz 3</div>
+                <div id="valasz1" class="kerdes kattinthato" onclick="kérdésEllenőrzés(this.id)">Válasz 1</div>
+                <div id="valasz2" class="kerdes kattinthato" onclick="kérdésEllenőrzés(this.id)">Válasz 2</div>
+                <div id="valasz3" class="kerdes kattinthato" onclick="kérdésEllenőrzés(this.id)">Válasz 3</div>
             </div>
             <div id="kep">
                 <img id="kép1" src="https://szoft1.comeback.hu/hajo/teszt-0050.jpg" />
             </div>
         </div>
         <div id="vezerlo">
-            <div class="gomb kattinthato">Vissza</div>
-            <div class="gomb kattinthato">Előre</div>
+            <div class="gomb kattinthato" onclick="előzőKérdés()">Vissza</div>
+            <div class="gomb kattinthato" onclick="következőKérdés()">Előre</div>
         </div>
     </div>
 </body>
